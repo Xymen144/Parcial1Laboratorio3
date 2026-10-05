@@ -6,6 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Consultar</title>
+    <link href="estilos.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">

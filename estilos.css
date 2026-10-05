@@ -1,0 +1,65 @@
+﻿/* Estilo general del cuerpo y fuentes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Color para el título principal de la página */
+h1 {
+    color: #2c3e50; /* Un azul oscuro / gris elegante */
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* Color para los subtítulos (si usas h2 en alguna sección) */
+h2 {
+    color: #16a085; /* Un tono verde/azulado profesional */
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+/* Contenedor o formato general para los formularios */
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Diseño de las etiquetas y campos de texto */
+label, span {
+    font-weight: bold;
+    height: 38px 
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], select {
+    width: 100%;
+    height: 38px
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+}
+
+/* Botones con aspecto profesional */
+input[type="submit"], button, .aspNetButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+    input[type="submit"]:hover, button:hover {
+        background-color: #0056b3;
+    }

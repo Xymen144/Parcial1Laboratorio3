@@ -6,11 +6,13 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title> Pagina de Inicio  </title>
+    <link href="estilos.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
             <h1> Bienvenidos a NuestraTienda Online </h1>
+            <h2> Gestión de Productos</h2>
 
         </div>
         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Alta.aspx">Registrar un Producto</asp:HyperLink>
