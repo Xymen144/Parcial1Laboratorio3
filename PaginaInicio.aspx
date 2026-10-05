@@ -15,12 +15,12 @@
         </div>
         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Alta.aspx">Registrar un Producto</asp:HyperLink>
         <p>
-            <asp:HyperLink ID="HyperLink2" runat="server">Consulta de Productos</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Consulta.aspx">Consulta de Productos</asp:HyperLink>
         </p>
         <p>
-            <asp:HyperLink ID="HyperLink3" runat="server">Modificar un Producto</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Modificar.aspx">Modificar un Producto</asp:HyperLink>
         </p>
-        <asp:HyperLink ID="HyperLink4" runat="server">Eliminar un Producto</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Baja.aspx">Eliminar un Producto</asp:HyperLink>
     </form>
 </body>
 </html>

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Parcial1Laboratorio3
 {
-    public partial class Alta : System.Web.UI.Page
+    public partial class Baja : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -16,10 +16,12 @@ namespace Parcial1Laboratorio3
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            this.SqlDataSourceAlta.Insert();
-            this.Label1.Text = "Registro insertado correctamente";
-            this.TextBox1.Text = string.Empty;
-            this.TextBox2.Text = string.Empty;
+            int cant = SqlDataSource1.Delete();
+
+            if (cant > 0)
+                this.Label1.Text = "Se eliminó el producto";
+            else
+                this.Label1.Text = "No existe un producto con tal código";
         }
     }
 }
