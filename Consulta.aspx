@@ -19,7 +19,7 @@
                     <asp:BoundField DataField="idProducto" HeaderText="idProducto" InsertVisible="False" ReadOnly="True" SortExpression="idProducto" />
                     <asp:BoundField DataField="nombre" HeaderText="Nombre" SortExpression="nombre" />
                     <asp:BoundField DataField="precio" DataFormatString="$ {0:N2}" HeaderText="$Precio" SortExpression="precio" />
-                    <asp:BoundField DataField="descripcion" HeaderText="Descripcion" SortExpression="descripcion" />
+                    <asp:BoundField DataField="descripcion" HeaderText="Categoria" SortExpression="descripcion" />
                 </Columns>
                 <FooterStyle BackColor="Tan" />
                 <HeaderStyle BackColor="Tan" Font-Bold="True" />
